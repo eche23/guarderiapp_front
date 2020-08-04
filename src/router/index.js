@@ -1,8 +1,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import MenuIcon from "vue-material-design-icons/Menu.vue";
 
 Vue.use(VueRouter)
+Vue.component("menu-icon", MenuIcon);
 
   const routes = [
   {
