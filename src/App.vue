@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <div id="nav" v-if="$route.path!=='/login'">
       <input type="checkbox" id="btn-menu" />
-      <label for="btn-menu" id="border-menu"><menu-icon id="icon-menu"/></label>
+      <label for="btn-menu" id="border-menu">
+        <menu-icon id="icon-menu" />
+      </label>
       <div class="menu">
         <img id="logo" alt="Vue logo" src="./assets/logo-baby.png" />
         <router-link to="/" class="menu-item">Entradas/Salidas</router-link>
