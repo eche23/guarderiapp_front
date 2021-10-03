@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Login from '../views/Login.vue'
+import Create from "../views/Create.vue";
 import MenuIcon from "vue-material-design-icons/Menu.vue";
 
 Vue.use(VueRouter)
@@ -17,6 +18,11 @@ Vue.component("menu-icon", MenuIcon);
       path: "/login",
       name: "Login",
       component: Login,
+    },
+    {
+      path: "/create",
+      name: "Create",
+      component: Create,
     },
     {
       path: "/about",

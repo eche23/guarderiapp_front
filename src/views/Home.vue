@@ -24,9 +24,10 @@ export default {
   flex-direction: column;
   align-items: center;
 }
+
 @media (max-width: 768px) {
   .home {
     margin-left: 65px;
   }
-}</style
->>
+}
+</style>

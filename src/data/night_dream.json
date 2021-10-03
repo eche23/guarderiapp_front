@@ -1,0 +1,22 @@
+[
+  {
+    "_id": "very_good",
+    "name": "Very Good"
+  },
+  {
+    "_id": "good",
+    "name": "Good"
+  },
+  {
+    "_id": "normal",
+    "name": "Normal"
+  },
+  {
+    "_id": "bab",
+    "name": "Bab"
+  },
+  {
+    "_id": "very_bab",
+    "name": "Very Bab"
+  }
+]

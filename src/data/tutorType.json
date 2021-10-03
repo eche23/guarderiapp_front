@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "mother",
+    "name": "Mother"
+  },
+  {
+    "_id": "father",
+    "name": "Father"
+  },
+  {
+    "_id": "brother",
+    "name": "Brother"
+  },
+  {
+    "_id": "sister",
+    "name": "Sister"
+  },
+  {
+    "_id": "grandfather",
+    "name": "Grandfather"
+  },
+  {
+    "_id": "grandmother",
+    "name": "Grandmother"
+  },
+  {
+    "_id": "uncle",
+    "name": "Uncle"
+  },
+  {
+    "_id": "aunt",
+    "name": "Aunt"
+  },
+  {
+    "_id": "other",
+    "name": "Other"
+  }
+]
