@@ -420,7 +420,7 @@
     </div>
 
     <div class="ctn-btn">
-      <button class="btn" id="create-children" @click="nextPage">Next</button>
+      <button class="btn" id="create-children" @click="create">Create</button>
     </div>
   </div>
 </template>
@@ -559,7 +559,7 @@ export default {
     getListEmotionalState() {
       this.listEmotionalState = require("../data/emotionalState.json");
     },
-    nextPage() {
+    create() {
       let checked = this.checkChildren();
       if (checked) {
         const address = this.address;
