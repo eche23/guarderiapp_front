@@ -1,0 +1,26 @@
+[
+  {
+    "_id": "street",
+    "name": "Steet"
+  },
+  {
+    "_id": "avenue",
+    "name": "Avenue"
+  },
+  {
+    "_id": "way",
+    "name": "Way"
+  },
+  {
+    "_id": "road",
+    "name": "Road"
+  },
+  {
+    "_id": "square",
+    "name": "Square"
+  },
+  {
+    "_id": "urbanization",
+    "name": "Urbanization"
+  }
+]
